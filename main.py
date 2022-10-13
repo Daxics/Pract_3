@@ -64,7 +64,9 @@ a = str(input())
 if (a == 'n'):
     _file_end_res = str(input('Введите формат: '))
 
-Convertor.convert(file_dir=_file_dir, save_dir=_save_dir, file_name=_file_name,
-                  file_start_res=_file_start_res, file_end_res=_file_end_res)
-
+mass = Convertor.convert(file_dir=_file_dir, save_dir=_save_dir, file_name=_file_name,
+                         file_start_res=_file_start_res, file_end_res=_file_end_res)
+print('Были созданы файлы:')
+for i in range(len(mass)):
+    print(str(mass[i]))
 print('Конвертация завершена')
