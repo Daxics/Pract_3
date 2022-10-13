@@ -1,10 +1,10 @@
 import unittest
-import main
+from main import Convertor
 
 
 class TestConvertor(unittest.TestCase):
     def setUp(self):
-        self.convertor = main()
+        self.convertor = Convertor()
 
     def test_convert(self):
         mass = ['test_1.png', 'test_2.png', 'test_3.png', 'test_4.png']
