@@ -50,19 +50,19 @@ if (a == 'n'):
 print('Вы хотите сохранить изображения в текущей директории? (y/n)')
 a = str(input())
 if (a == 'n'):
-    _save_dir = str(input())
+    _save_dir = str(input('Введите директорию: '))
 print('Вы хотите конвертировать изображения с форматом "jpg"? (y/n)')
 a = str(input())
 if (a == 'n'):
-    _file_name = str(input())
+    _file_name = str(input('Введите формат: '))
 print('Вы хотите конвертировать все изображения с этим форматом в текущей директории? (y/n)')
 a = str(input())
 if (a == 'n'):
-    _file_start_res = str(input())
+    _file_start_res = str(input('Введите имя файла: '))
 print('Вы хотите конвертировать изображения в формат "png"? (y/n)')
 a = str(input())
 if (a == 'n'):
-    _file_end_res = str(input())
+    _file_end_res = str(input('Введите формат: '))
 
 Convertor.convert(file_dir=_file_dir, save_dir=_save_dir, file_name=_file_name,
                   file_start_res=_file_start_res, file_end_res=_file_end_res)
