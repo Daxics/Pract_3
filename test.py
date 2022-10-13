@@ -8,7 +8,7 @@ class TestConvertor(unittest.TestCase):
 
     def test_convert(self):
         mass = ['test_1.png', 'test_2.png', 'test_3.png', 'test_4.png']
-        self.assertEqual(self.convertor.convert(), mass)
+        self.assertEqual(self.convertor.convert_for_test(), mass)
 
 
 if __name__ == "__main__":
