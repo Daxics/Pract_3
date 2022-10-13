@@ -66,3 +66,5 @@ if (a == 'n'):
 
 Convertor.convert(file_dir=_file_dir, save_dir=_save_dir, file_name=_file_name,
                   file_start_res=_file_start_res, file_end_res=_file_end_res)
+
+print('Конвертация завершена')
